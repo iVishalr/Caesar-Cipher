@@ -1,0 +1,16 @@
+void readInput(unsigned char * message, int * shift);
+void displayMessage(unsigned char * message);
+void displayMessageBF(unsigned char ** bruteForceCombinations,int messageSize);
+void encryptMessage(unsigned char* message, int shift);
+void decryptMessage(unsigned char* message, int shift);
+void bruteForce(unsigned char* message,unsigned char ** bruteForceCombinations);
+void getAlphabetSet(unsigned char * alphabetSet);
+int getAlphabetIndex(unsigned char * alphabetSet,unsigned char ch);
+void parseMessageBF(unsigned char * message, unsigned char * bruteForceCombinations);
+void sleep(int milliseconds);
+void clrscr();
+void cleanSTDIN();
+int system(const char* command);
+void fileWriter(char filePath[50], unsigned char * message, char * mode);
+void copyToClipboard(char filePath[]);
+void open(char filePath[]);
