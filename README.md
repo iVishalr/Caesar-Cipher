@@ -29,6 +29,7 @@ In windows, typing `a.exe` will run the code.
 ### Sample Test Case
 ___
 Message : Hello World!
+
 Shift : 10
 
 Encrypted Message : Rovvy gyBvn!
